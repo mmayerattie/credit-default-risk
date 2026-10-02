@@ -68,7 +68,7 @@ Class imbalance is handled with SMOTE on the training split only. All splits use
 The data is not stored in the repo. The notebooks download it from the UCI repository (dataset ID 350) through `ucimlrepo`, so an internet connection is needed on the first run.
 
 ```bash
-git clone https://github.com/<your-username>/credit-default-risk-segmentation.git
+git clone https://github.com/mmayerattie/credit-default-risk-segmentation.git
 cd credit-default-risk-segmentation
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
